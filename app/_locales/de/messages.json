@@ -1,9 +1,48 @@
 {
+  "QRHardwareInvalidTransactionTitle": {
+    "message": "Fehler"
+  },
+  "QRHardwareMismatchedSignId": {
+    "message": "Inkongruente Transaktionsdaten. Bitte überprüfen Sie die Transaktionsdetails."
+  },
+  "QRHardwarePubkeyAccountOutOfRange": {
+    "message": "Keine weiteren Konten. Wenn Sie auf ein Konto zugreifen möchten, das unten nicht aufgelistet ist, verbinden Sie bitte erneut Ihre Hardware-Wallet und wählen Sie diese."
+  },
+  "QRHardwareScanInstructions": {
+    "message": "Platzieren Sie den QR-Code vor Ihrer Kamera. Der Bildschirm ist verschwommen, das wirkt sich aber nicht auf das Scannen aus."
+  },
   "QRHardwareSignRequestCancel": {
     "message": "Ablehnen"
   },
+  "QRHardwareSignRequestDescription": {
+    "message": "Nachdem Sie sich mit Ihrer Wallet angemeldet haben, klicken Sie auf 'Signatur erhalten', um die Signatur zu bekommen"
+  },
+  "QRHardwareSignRequestGetSignature": {
+    "message": "Signatur abrufen"
+  },
+  "QRHardwareSignRequestSubtitle": {
+    "message": "Scannen Sie den QR-Code mit Ihrer Wallet"
+  },
+  "QRHardwareSignRequestTitle": {
+    "message": "Signatur abrufen"
+  },
+  "QRHardwareUnknownQRCodeTitle": {
+    "message": "Fehler"
+  },
+  "QRHardwareUnknownWalletQRCode": {
+    "message": "Ungültiger QR-Code. Bitte scannen Sie den QR-Code der Hardware-Wallet."
+  },
   "QRHardwareWalletImporterTitle": {
     "message": "QR-Code scannen"
+  },
+  "QRHardwareWalletSteps1Description": {
+    "message": "Verbinden Sie eine airgapped Hardware-Wallet, die über QR-Codes kommuniziert. Offiziell unterstützte airgapped Hardware-Wallets sind:"
+  },
+  "QRHardwareWalletSteps1Title": {
+    "message": "QR-basierte HW-Wallet"
+  },
+  "QRHardwareWalletSteps2Description": {
+    "message": "AirGap Vault & Ngrave (demnächst)"
   },
   "about": {
     "message": "Über"
@@ -14,8 +53,19 @@
   "acceleratingATransaction": {
     "message": "* Die Beschleunigung einer Transaktion durch die Verwendung eines höheren Gaspreises erhöht die Chancen einer schnelleren Verarbeitung durch das Netz, wofür es allerdings keine Garantie gibt."
   },
+  "acceptTermsOfUse": {
+    "message": "Ich habe die $1 gelesen und stimme ihnen zu",
+    "description": "$1 is the `terms` message"
+  },
+  "accessAndSpendNotice": {
+    "message": "$1 kann bis zu diesem maximalen Betrag abrufen und ausgeben",
+    "description": "$1 is the url of the site requesting ability to spend"
+  },
   "accessingYourCamera": {
     "message": "Zugriff auf Ihre Kamera …"
+  },
+  "account": {
+    "message": "Konto"
   },
   "accountDetails": {
     "message": "Accountdetails"
@@ -23,20 +73,75 @@
   "accountName": {
     "message": "Accountname"
   },
+  "accountNameDuplicate": {
+    "message": "Dieser Kontoname existiert bereits",
+    "description": "This is an error message shown when the user enters a new account name that matches an existing account name"
+  },
   "accountOptions": {
     "message": "Kontooptionen"
   },
   "accountSelectionRequired": {
     "message": "Sie müssen ein Konto auswählen!"
   },
+  "active": {
+    "message": "Aktiv"
+  },
+  "activity": {
+    "message": "Aktivität"
+  },
   "activityLog": {
     "message": "Aktivitätsprotokoll"
+  },
+  "add": {
+    "message": "Hinzufügen"
+  },
+  "addANetwork": {
+    "message": "Ein neues Netzwerk hinzufügen"
+  },
+  "addANickname": {
+    "message": "Spitznamen hinzufügen"
   },
   "addAcquiredTokens": {
     "message": "Fügen Sie die Token hinzu, die Sie mittels MetaMask erlangt haben"
   },
   "addAlias": {
     "message": "Alias hinzufügen"
+  },
+  "addContact": {
+    "message": "Kontakt hinzufügen"
+  },
+  "addCustomToken": {
+    "message": "Kunden-Token hinzufügen"
+  },
+  "addCustomTokenByContractAddress": {
+    "message": "Sie können kein Token finden? Sie können ein beliebiges Token manuell hinzufügen, indem Sie seine Adresse eingeben. Token-Vertragsadressen finden Sie auf $1.",
+    "description": "$1 is a blockchain explorer for a specific network, e.g. Etherscan for Ethereum"
+  },
+  "addEthereumChainConfirmationDescription": {
+    "message": "Dadurch kann dieses Netzwerk innerhalb MetaMask verwendet werden."
+  },
+  "addEthereumChainConfirmationRisks": {
+    "message": "MetaMaske überprüft keine benutzerdefinierten Netzwerke."
+  },
+  "addEthereumChainConfirmationRisksLearnMore": {
+    "message": "Erfahren Sie mehr über $1.",
+    "description": "$1 is a link with text that is provided by the 'addEthereumChainConfirmationRisksLearnMoreLink' key"
+  },
+  "addEthereumChainConfirmationRisksLearnMoreLink": {
+    "message": "Betrug und Sicherheitsrisiken im Netzwerk",
+    "description": "Link text for the 'addEthereumChainConfirmationRisksLearnMore' translation key"
+  },
+  "addEthereumChainConfirmationTitle": {
+    "message": "Dieser Seite das Hinzufügen eines Netzwerks erlauben?"
+  },
+  "addFriendsAndAddresses": {
+    "message": "Freunde und Adressen hinzufügen, welchen Sie vertrauen"
+  },
+  "addMemo": {
+    "message": "Notiz hinzufügen"
+  },
+  "addNFT": {
+    "message": "NFT hinzufügen"
   },
   "addNetwork": {
     "message": "Netzwerk hinzufügen"
@@ -53,14 +158,79 @@
   "addToken": {
     "message": "Token hinzufügen"
   },
+  "address": {
+    "message": "Adresse"
+  },
+  "addressBookIcon": {
+    "message": "Adressbuchsymbol"
+  },
   "advanced": {
     "message": "Erweitert"
+  },
+  "advancedBaseGasFeeToolTip": {
+    "message": "Wenn deine Transaktion in den Block aufgenommen wird, wird die Differenz zwischen deiner maximalen Grundgebühr und der tatsächlichen Grundgebühr erstattet. Der Gesamtbetrag wird berechnet als maximale Grundgebühr (in GWEI) * Gaslimit."
+  },
+  "advancedGasFeeDefaultOptIn": {
+    "message": "Speichern Sie diese $1 als Standard für \"Erweitert\""
+  },
+  "advancedGasFeeDefaultOptOut": {
+    "message": "Immer diese Werte und erweiterte Einstellung als Standard verwenden."
+  },
+  "advancedGasFeeModalTitle": {
+    "message": "Erweiterte Gasgebühr"
+  },
+  "advancedGasPriceTitle": {
+    "message": "Gaspreis"
   },
   "advancedOptions": {
     "message": "Erweiterte Optionen"
   },
+  "advancedPriorityFeeToolTip": {
+    "message": "Prioritätsgebühr (alias „Miner Tip“) geht direkt an Miner und veranlasst sie, Ihre Transaktion zu priorisieren."
+  },
   "advancedSettingsDescription": {
     "message": "Zugriff auf Entwicklerfunktionen, Download von Statusprotokollen, Zurücksetzen des Kontos, Einrichten von Testnetzen und benutzerdefinierten RPCs"
+  },
+  "affirmAgree": {
+    "message": "Ich stimme zu"
+  },
+  "aggregatorFeeCost": {
+    "message": "Aggregator-Netzwerkgebühr"
+  },
+  "alertDisableTooltip": {
+    "message": "Dies kann in \"Einstellungen > Warnungen\" geändert werden"
+  },
+  "alertSettingsUnconnectedAccount": {
+    "message": "Eine Webseite mit einem nicht verknüpften Konto durchsuchen"
+  },
+  "alertSettingsUnconnectedAccountDescription": {
+    "message": "Diese Warnung wird im Popup angezeigt, wenn Sie eine verbundene Webseite durchsuchen, aber das aktuell ausgewählte Konto ist nicht verbunden."
+  },
+  "alertSettingsWeb3ShimUsage": {
+    "message": "Wenn eine Webseite versucht, die entfernte window.web3 API zu verwenden"
+  },
+  "alertSettingsWeb3ShimUsageDescription": {
+    "message": "Diese Warnung wird im Popup angezeigt, wenn Sie eine Seite durchsuchen, die versucht, das entfernte Fenster zu verwenden. eb3 API und kann dadurch zerstört werden."
+  },
+  "alerts": {
+    "message": "Warnungen"
+  },
+  "alertsSettingsDescription": {
+    "message": "Aktivieren oder deaktivieren Sie jede Warnung"
+  },
+  "allowExternalExtensionTo": {
+    "message": "Erlauben dieser externen Erweiterung auf:"
+  },
+  "allowSpendToken": {
+    "message": "Erlaubnis zum Zugriff auf Ihr $1 erteilen?",
+    "description": "$1 is the symbol of the token that are requesting to spend"
+  },
+  "allowThisSiteTo": {
+    "message": "Erlauben Sie dieser Seite zu:"
+  },
+  "allowWithdrawAndSpend": {
+    "message": "$1 erlauben, bis zu dem folgenden Betrag abzuheben und auszugeben:",
+    "description": "The url of the site that requested permission to 'withdraw and spend'"
   },
   "amount": {
     "message": "Betrag"
@@ -81,14 +251,36 @@
     "message": "MetaMask Flask",
     "description": "The name of the application (Flask)"
   },
+  "approvalAndAggregatorTxFeeCost": {
+    "message": "Netzwerkgebühr für Freigabe und Aggregator"
+  },
+  "approvalTxGasCost": {
+    "message": "Tx-Gaskosten genehmigen"
+  },
   "approve": {
     "message": "Genehmigen"
+  },
+  "approveButtonText": {
+    "message": "Genehmigen"
+  },
+  "approveSpendLimit": {
+    "message": "$1 Ausgabelimit genehmigen",
+    "description": "The token symbol that is being approved"
   },
   "approved": {
     "message": "Genehmigt"
   },
+  "approvedAmountWithColon": {
+    "message": "Genehmigter Betrag:"
+  },
   "asset": {
     "message": "Vermögenswert"
+  },
+  "assetOptions": {
+    "message": "Asset-Optionen"
+  },
+  "assets": {
+    "message": "Vermögenswerte"
   },
   "attemptToCancel": {
     "message": "Stornierung versuchen?"
@@ -101,6 +293,9 @@
   },
   "attributions": {
     "message": "Was wir verwenden"
+  },
+  "authorizedPermissions": {
+    "message": "Sie haben die folgenden Berechtigungen autorisiert"
   },
   "autoLockTimeLimit": {
     "message": "Auto-Logout-Timer (Minuten)"
@@ -132,11 +327,48 @@
   "balanceOutdated": {
     "message": "Kontostand könnte überholt sein"
   },
+  "baseFee": {
+    "message": "Basisgebühr"
+  },
   "basic": {
     "message": "Grundlegend"
   },
+  "betaMetamaskDescription": {
+    "message": "MetaMask ist eine sichere Wallet, welche die Welt von web3 für alle zugänglich macht."
+  },
+  "betaMetamaskDescriptionExplanation": {
+    "message": "Verwenden Sie diese Version, um neue Funktionen zu testen, bevor sie freigegeben werden. Ihre Nutzung und Ihr Feedback helfen uns, die bestmögliche Version von MetaMask zu entwickeln. Ihre Nutzung von MetaMask Beta unterliegt unseren Standard $1 sowie unseren $2. Als Beta-Version kann ein erhöhtes Risiko von Fehlern bestehen. Indem Sie fortfahren, akzeptieren und erkennen Sie diese Risiken an, ebenso wie die Risiken, die in unseren Allgemeinen Geschäftsbedingungen und den Beta-Bedingungen aufgeführt sind.",
+    "description": "$1 represents localization item betaMetamaskDescriptionExplanationTermsLinkText.  $2 represents localization item betaMetamaskDescriptionExplanationBetaTermsLinkText"
+  },
+  "betaMetamaskDescriptionExplanationBetaTermsLinkText": {
+    "message": "Zusätzliche Beta-Bedingungen"
+  },
+  "betaMetamaskDescriptionExplanationTermsLinkText": {
+    "message": "Bedingungen"
+  },
+  "betaMetamaskVersion": {
+    "message": "MetaMask-Version"
+  },
+  "betaWelcome": {
+    "message": "Willkommen bei MetaMask Beta"
+  },
+  "blockExplorerAccountAction": {
+    "message": "Konto",
+    "description": "This is used with viewOnEtherscan and viewInExplorer e.g View Account in Explorer"
+  },
+  "blockExplorerAssetAction": {
+    "message": "Vermögenswert",
+    "description": "This is used with viewOnEtherscan and viewInExplorer e.g View Asset in Explorer"
+  },
+  "blockExplorerSwapAction": {
+    "message": "Swap",
+    "description": "This is used with viewOnEtherscan e.g View Swap on Etherscan"
+  },
   "blockExplorerUrl": {
     "message": "Block-Explorer"
+  },
+  "blockExplorerUrlDefinition": {
+    "message": "Die URL, die als Block-Explorer für dieses Netzwerk verwendet wird."
   },
   "blockExplorerView": {
     "message": "Konto bei $1 anzeigen",
@@ -148,14 +380,55 @@
   "browserNotSupported": {
     "message": "Ihr Browser wird nicht unterstützt …"
   },
+  "buildContactList": {
+    "message": "Erstellen Sie Ihre Kontaktliste"
+  },
+  "builtAroundTheWorld": {
+    "message": "MetaMask ist weltweit konzipiert und aufgebaut."
+  },
+  "busy": {
+    "message": "Belegt"
+  },
+  "buy": {
+    "message": "Kaufen"
+  },
+  "buyWithTransak": {
+    "message": "ETH mit Transak kaufen"
+  },
+  "buyWithTransakDescription": {
+    "message": "Transak unterstützt Bankkarten und Banküberweisungen (je nach Standort) in mehr als 59 Ländern. ETH Einzahlungen auf Ihr MetaMask Konto."
+  },
   "buyWithWyre": {
     "message": "ETH mit Wyre kaufen"
   },
   "buyWithWyreDescription": {
     "message": "Wyre ermöglicht Ihnen die Verwendung einer Kreditkarte zum direkten Einzahlen von ETH auf Ihr MetaMask-Konto."
   },
+  "bytes": {
+    "message": "Bytes"
+  },
+  "canToggleInSettings": {
+    "message": "Sie können diese Benachrichtigung unter Einstellungen -> Warnungen wieder aktivieren."
+  },
   "cancel": {
     "message": "Abbrechen"
+  },
+  "cancelEdit": {
+    "message": "Bearbeiten abbrechen"
+  },
+  "cancelPopoverTitle": {
+    "message": "Transaktion abbrechen"
+  },
+  "cancelSpeedUp": {
+    "message": "eine Transaktion abbrechen oder beschleunigen."
+  },
+  "cancelSpeedUpLabel": {
+    "message": "Diese Gasgebühr kostet $1 das Original.",
+    "description": "$1 is text 'replace' in bold"
+  },
+  "cancelSpeedUpTransactionTooltip": {
+    "message": "Für eine Transaktion im Wert von $1 muss die Gasgebühr um mindestens 10 % erhöht werden, damit sie vom Netz erkannt wird.",
+    "description": "$1 is string 'cancel' or 'speed up'"
   },
   "cancellationGasFee": {
     "message": "Stornierungs-Gasgebühr"
@@ -163,8 +436,21 @@
   "cancelled": {
     "message": "Abgebrochen"
   },
+  "chainId": {
+    "message": "Ketten-ID"
+  },
+  "chainIdDefinition": {
+    "message": "Die Ketten-ID, die verwendet wird, um Transaktionen für dieses Netzwerk zu signieren."
+  },
+  "chainIdExistsErrorMsg": {
+    "message": "Diese Ketten-ID wird derzeit vom $1-Netzwerk verwendet."
+  },
   "chromeRequiredForHardwareWallets": {
     "message": "Sie müssen MetaMask unter Google Chrome nutzen, um sich mit Ihrem Hardware-Wallet zu verbinden."
+  },
+  "clickToConnectLedgerViaWebHID": {
+    "message": "Klicken Sie hier, um Ihren Ledger über WebHID zu verbinden",
+    "description": "Text that can be clicked to open a browser popup for connecting the ledger device via webhid"
   },
   "clickToRevealSeed": {
     "message": "Hier klicken, um Geheimwörter zu enthüllen"
@@ -178,11 +464,23 @@
   "confirmPassword": {
     "message": "Passwort bestätigen"
   },
+  "confirmRecoveryPhrase": {
+    "message": "Bestätigen Sie die geheime Sicherungsphrase"
+  },
   "confirmSecretBackupPhrase": {
     "message": "Bestätigen Sie Ihre geheime Sicherungsphrase"
   },
   "confirmed": {
     "message": "Bestätigt"
+  },
+  "confusableUnicode": {
+    "message": "'$1' ist ähnlich wie '$2'."
+  },
+  "confusableZeroWidthUnicode": {
+    "message": "Zeichen mit Null-Breite gefunden."
+  },
+  "confusingEnsDomain": {
+    "message": "Wir haben ein missverständliches Zeichen im ENS-Namen entdeckt. Prüfen Sie den ENS-Namen, um möglichen Betrug zu vermeiden."
   },
   "congratulations": {
     "message": "Glückwunsch"
@@ -190,8 +488,54 @@
   "connect": {
     "message": "Verbinden"
   },
+  "connectAccountOrCreate": {
+    "message": "Konto verbinden oder Neues erstellen"
+  },
   "connectHardwareWallet": {
     "message": "Hardware-Wallet verknüpfen"
+  },
+  "connectManually": {
+    "message": "Manuelle Verbindung zur aktuellen Site"
+  },
+  "connectTo": {
+    "message": "Verbindung mit $1 wird hergestellt",
+    "description": "$1 is the name/origin of a web3 site/application that the user can connect to metamask"
+  },
+  "connectToAll": {
+    "message": "Mit all Ihren $1 verbinden",
+    "description": "$1 will be replaced by the translation of connectToAllAccounts"
+  },
+  "connectToAllAccounts": {
+    "message": "Konten",
+    "description": "will replace $1 in connectToAll, completing the sentence 'connect to all of your accounts', will be text that shows list of accounts on hover"
+  },
+  "connectToMultiple": {
+    "message": "Verbindung mit $1 wird hergestellt",
+    "description": "$1 will be replaced by the translation of connectToMultipleNumberOfAccounts"
+  },
+  "connectToMultipleNumberOfAccounts": {
+    "message": "$1-Konten",
+    "description": "$1 is the number of accounts to which the web3 site/application is asking to connect; this will substitute $1 in connectToMultiple"
+  },
+  "connectWithMetaMask": {
+    "message": "Mit MetaMask verbinden"
+  },
+  "connectedAccountsDescriptionPlural": {
+    "message": "Sie haben $1 Konten mit dieser Seite verbunden.",
+    "description": "$1 is the number of accounts"
+  },
+  "connectedAccountsDescriptionSingular": {
+    "message": "Sie haben $1 Konten mit dieser Seite verbunden."
+  },
+  "connectedAccountsEmptyDescription": {
+    "message": "MetaMask ist nicht mit dieser Seite verbunden. Um sich mit einer Web3 site zu verbinden, finden und klicken Sie auf die Schaltfläche Verbinden."
+  },
+  "connectedSites": {
+    "message": "Verbundene Seiten"
+  },
+  "connectedSitesDescription": {
+    "message": "$1 ist mit diesen Seiten verbunden. Sie können Ihre Konto-Adresse einsehen.",
+    "description": "$1 is the account name"
   },
   "connectingTo": {
     "message": "Verbindung mit $1 wird hergestellt"
